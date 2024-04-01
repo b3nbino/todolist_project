@@ -1,0 +1,21 @@
+{
+  "dependencies": {},
+  "name": "todolist",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3"
+  }
+}
